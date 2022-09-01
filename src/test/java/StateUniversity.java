@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -9,9 +10,9 @@ public class StateUniversity {
 
     protected long phone;
 
-    private final Set<Student> students = new HashSet();
+    private ArrayList<Student> students = new ArrayList<>();
 
-    private final Set<Department> departaments = new HashSet();
+    private ArrayList<Department> departaments = new ArrayList<>();
 
     public StateUniversity(String name, String address, long phone) {
         this.name = name;
